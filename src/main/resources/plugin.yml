@@ -1,0 +1,25 @@
+main: dk.spirit55555.onlyhearts.OnlyHearts
+name: ${project.name}
+version: ${project.version}
+description: ${project.description}
+author: Anders G. Jørgensen
+website: http://spirit55555.dk
+permissions:
+  onlyhearts.reload:
+    description: Reload the plugin
+    default: op
+  onlyhearts.chat:
+    description: Write hearts on the chat
+    default: true
+  onlyhearts.signs:
+    description: Write hearts on signs
+    default: true
+  onlyhearts.commands:
+    description: Write hearts in commands
+    default: true
+commands:
+  onlyheartsreload:
+    description: Reload the plugin
+    usage: /<command> - Reload the plugin
+    aliases: [ohreload]
+    permission: onlyhearts.reload
