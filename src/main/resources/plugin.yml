@@ -4,6 +4,7 @@ version: ${project.version}
 description: ${project.description}
 author: Anders G. Jørgensen
 website: http://spirit55555.dk
+api-version: 1.13
 permissions:
   onlyhearts.reload:
     description: Reload the plugin
